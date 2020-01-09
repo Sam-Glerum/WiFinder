@@ -1,7 +1,11 @@
 import sys
 
 class StartMenu():
+    
     stop_program = False
+
+    def __init__(self):
+        pass
 
     def menu(self):
         choice = input("1: start / 2: quit > ")
